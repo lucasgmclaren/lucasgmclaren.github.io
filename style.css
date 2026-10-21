@@ -1,8 +1,8 @@
 /* Lucas McLaren portfolio: drafting-sheet theme */
 :root{
   color-scheme:light;
-  --paper:#fafaf8; --grid:#efeeea; --ink:#24272b; --muted:#646a71;
-  --accent:#c2410c; --accent-ink:#ffffff; --line:#2f3337; --panel:#ffffff; --soft:#f2f1ed;
+  --paper:#f3eee3; --grid:#e8e1d3; --ink:#24272b; --muted:#646a71;
+  --accent:#b42318; --accent-ink:#ffffff; --line:#2f3337; --panel:#faf7f0; --soft:#ebe5d8;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
