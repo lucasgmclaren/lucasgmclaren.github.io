@@ -27,4 +27,4 @@ Drop images into `images/` with these exact names and they appear automatically
 Landscape photos (about 16:10) work best for projects; a portrait photo for the headshot.
 
 ## Publishing
-Settings → Pages → Source: *Deploy from a branch* → Branch: `main`, folder `/ (root)` → Save.
+Live at https://lucasgmclaren.github.io/ (repo must be named `lucasgmclaren.github.io`; Settings → Pages → Deploy from branch `main`, `/ (root)`).
