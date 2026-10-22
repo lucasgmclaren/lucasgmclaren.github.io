@@ -19,7 +19,7 @@ Drop images into `images/` with these exact names and they appear automatically
 |---|---|
 | `images/headshot.jpg` | Home page hero |
 | `images/intern/*` | Experience, Southland internship carousel (photos + muted .mp4 clips) |
-| `images/baja.jpg` | Experience, SAE Baja |
+| `images/baja/*` | Experience, SAE Baja carousel |
 | `images/capstone.jpg` | Projects, flaw inspection system |
 | `images/rc-car.jpg` | Projects, RC car |
 | `images/go-kart.jpg` | Projects, go-kart |

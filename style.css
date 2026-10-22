@@ -128,7 +128,7 @@ footer.block small{display:block;color:var(--muted)}
 
 /* Photo carousel */
 .carousel{border:2px solid var(--line);background:var(--panel)}
-.carousel-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;aspect-ratio:4/5;background:var(--soft)}
+.carousel-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;aspect-ratio:9/10;background:var(--soft)}
 .carousel-track::-webkit-scrollbar{display:none}
 .carousel-track:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}
 .slide{flex:0 0 100%;margin:0;scroll-snap-align:center;display:flex;align-items:center;justify-content:center}
