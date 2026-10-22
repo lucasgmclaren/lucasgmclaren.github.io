@@ -44,6 +44,7 @@ main{padding:2.25rem 1.4rem 2.75rem}
 .stats{display:inline-grid;grid-auto-flow:column;margin-top:1.6rem;border:2px solid var(--line);background:var(--panel)}
 .stat{padding:.9rem 1rem;border-right:1px solid var(--line)}
 .stat:last-child{border-right:0}
+.stats.compact{margin-top:.2rem}
 .stat small{display:block;color:var(--muted);font-size:.85rem;text-transform:uppercase;letter-spacing:.08em}
 .stat strong{display:block;font:700 2rem/1.1 "Barlow Condensed",Impact,sans-serif}
 .actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.6rem}
@@ -118,8 +119,6 @@ footer.block small{display:block;color:var(--muted)}
   nav{width:100%}
   nav a{border-left:0;border-top:2px solid var(--line);flex:1;justify-content:center;padding:.75rem .5rem}
   nav a+a{border-left:2px solid var(--line)}
-  .stat{border-right:0;border-bottom:1px solid var(--line)}
-  .stat:last-child{border-bottom:0}
   .fig-row{grid-template-columns:1fr}
   footer.block{grid-template-columns:1fr}
   footer.block div{border-right:0;border-bottom:1px solid var(--line)}
