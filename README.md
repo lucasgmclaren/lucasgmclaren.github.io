@@ -8,6 +8,7 @@ Static portfolio site (plain HTML + CSS) served with GitHub Pages.
 - `projects.html`: Capstone, RC car, go-kart, moped, VW Jetta
 - `goals.html`: Graduate school and career goals
 - `style.css`: shared styles
+- `carousel.js`: photo carousel (arrow buttons, swipe, keyboard; videos stay muted)
 - `assets/Lucas_McLaren_Resume_2026.pdf`: downloadable resume
 
 ## Adding photos
@@ -17,6 +18,7 @@ Drop images into `images/` with these exact names and they appear automatically
 | File | Where it shows |
 |---|---|
 | `images/headshot.jpg` | Home page hero |
+| `images/intern/*` | Experience, Southland internship carousel (photos + muted .mp4 clips) |
 | `images/baja.jpg` | Experience, SAE Baja |
 | `images/capstone.jpg` | Projects, flaw inspection system |
 | `images/rc-car.jpg` | Projects, RC car |

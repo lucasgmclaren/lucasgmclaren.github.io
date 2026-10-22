@@ -125,3 +125,19 @@ footer.block small{display:block;color:var(--muted)}
   footer.block div{border-right:0;border-bottom:1px solid var(--line)}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Photo carousel */
+.carousel{border:2px solid var(--line);background:var(--panel)}
+.carousel-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;aspect-ratio:4/5;background:var(--soft)}
+.carousel-track::-webkit-scrollbar{display:none}
+.carousel-track:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}
+.slide{flex:0 0 100%;margin:0;scroll-snap-align:center;display:flex;align-items:center;justify-content:center}
+.slide img,.slide video{width:100%;height:100%;object-fit:contain;display:block;background:var(--soft)}
+.carousel-bar{display:flex;align-items:center;justify-content:space-between;border-top:2px solid var(--line)}
+.carousel-btn{font:700 1.3rem/1 "Source Sans 3",system-ui,sans-serif;background:var(--panel);color:var(--ink);border:0;padding:.65rem 1.3rem;cursor:pointer}
+.carousel-btn:first-child{border-right:2px solid var(--line)}
+.carousel-btn:last-child{border-left:2px solid var(--line)}
+.carousel-btn:hover{background:var(--accent);color:var(--accent-ink)}
+.carousel-btn:disabled{opacity:.35;cursor:default;background:var(--panel);color:var(--ink)}
+.carousel-count{font:700 .95rem "Barlow Condensed",Impact,sans-serif;letter-spacing:.12em;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){.carousel-track{scroll-behavior:auto}}
