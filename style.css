@@ -140,3 +140,5 @@ footer.block small{display:block;color:var(--muted)}
 .carousel-btn:disabled{opacity:.35;cursor:default;background:var(--panel);color:var(--ink)}
 .carousel-count{font:700 .95rem "Barlow Condensed",Impact,sans-serif;letter-spacing:.12em;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){.carousel-track{scroll-behavior:auto}}
+.entry-body > .carousel{align-self:start}
+.slide > a{display:block;width:100%;height:100%}

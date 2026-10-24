@@ -20,9 +20,9 @@ Drop images into `images/` with these exact names and they appear automatically
 | `images/headshot.jpg` | Home page hero |
 | `images/intern/*` | Experience, Southland internship carousel (photos + muted .mp4 clips) |
 | `images/baja/*` | Experience, SAE Baja carousel |
-| `images/capstone.jpg` | Projects, flaw inspection system |
-| `images/rc-car.jpg` | Projects, RC car |
-| `images/go-kart.jpg` | Projects, go-kart |
+| `images/capstone/*` | Projects, capstone carousel (poster links to `assets/capstone-poster.pdf`) |
+| `images/rc/*` | Projects, RC car carousel |
+| `images/gokart/*` | Projects, mini go-kart carousel |
 | `images/moped.jpg` | Projects, moped |
 | `images/jetta.jpg` | Projects, VW Jetta |
 
